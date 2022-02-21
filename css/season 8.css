@@ -1,0 +1,106 @@
+body {
+	background-image: url("../images/background image.jpg");
+	z-index: 1;
+}
+
+
+.header {
+	text-align: center;
+    color: white;
+    text-shadow: 2px 2px 3px white;
+    width: 100%;
+}
+
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  position: sticky;
+  top: 0;
+}
+
+.websitename {
+	color: white;
+    text-shadow: 2px 2px 3px red;
+    padding: 10px 16px;
+    font-size: 20px;
+}
+
+.option {
+  float: left;
+}
+
+.option a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.option a:hover {
+  opacity: 90%;
+  transform: scale(1.1);
+  transition: 0.5s ease;
+}
+
+.collapsible {
+  font-family: "Times New Roman";
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  border: none;
+  width: 100%;
+  text-align: center;
+  outline: none;
+  font-size: 30px;
+  text-shadow: 2px 2px 3px white;
+  box-shadow: 2px 2px 3px white;
+}
+
+.collapsible:hover {
+  	opacity: 90%;
+  	transform: scale(1.1);
+    transition: 0.5s ease;
+}
+
+.characterquote {
+	padding-top: 20px;
+    padding-left: 10px;
+    text-shadow: 2px 2px 3px red;
+}
+
+
+.charactericon {
+	width: 400px;
+	height: 400px;
+	border-style: double;
+	border-color: white;
+}
+
+.characterinfo {
+  padding: 0 18px;
+  max-height: 0;
+  color: white;
+  font-size: 20px;
+  text-shadow: 2px 2px 3px;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: black;
+}
+
+.line {
+	border: 1px solid white;
+}
+
+.sources {
+	float: left;
+	color: white;
+	text-align: center;
+	width: 100%;
+	margin-top: 70px;
+	background-color: #000000;
+}

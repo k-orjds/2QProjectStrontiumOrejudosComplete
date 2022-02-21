@@ -1,0 +1,93 @@
+body {
+	background-image: url("../images/background image.jpg");
+	z-index: 1;
+}
+
+#wrapper {
+    	margin-left:auto;
+    	margin-right:auto;
+    	width: 1150px;
+}
+
+
+.banner1 {
+    	margin-left: 247.5px;
+    	width: 656px;
+    	height: 225px;
+    	background-image: url("../images/ahs coven banner.jpg");
+    	background-repeat: no-repeat;
+    	background-size: cover;
+    	background-position: center;
+}
+
+.banner2 {
+    	margin-left: 247.5px;
+    	width: 656px;
+    	height: 225px;
+    	background-image: url("../images/ahs apocalypse banner.png");
+    	background-repeat: no-repeat;
+    	background-size: cover;
+    	background-position: center;
+}
+
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  position: sticky;
+  top: 0;
+}
+
+.websitename {
+	color: white;
+    text-shadow: 2px 2px 3px red;
+    padding: 10px 16px;
+    font-size: 20px;
+}
+
+.option {
+  float: left;
+}
+
+.option a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.option a:hover {
+  opacity: 90%;
+  transform: scale(1.1);
+  transition: 0.5s ease;
+}
+
+.content {
+		margin: auto;
+		padding: 4px;
+    	color: #ffffff;
+    	text-shadow: 2px 2px 3px #ffffff;
+        width: 656px;
+        background-color: #000000;
+        text-align: center;
+        font-size: 30px;
+}
+
+.video {
+    	float: left;
+    	margin-left: 247.5px;
+	    padding-top: 2s0px;
+	    padding-bottom: 40px;
+}
+
+.sources {
+	float: left;
+	color: white;
+	text-align: center;
+	width: 100%;
+	margin-top: 70px;
+	background-color: #000000;
+}
